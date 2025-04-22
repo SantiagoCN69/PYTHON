@@ -21,3 +21,21 @@ else:
         print("Puedes conducir con supervisión.")
     else:
         print("No puedes conducir.")
+        
+#ejemplo 2
+ingreso = int(input("¿Cuánto dinero ganas mensualmente?:$ "))
+gastos = int(input("¿Cuánto dinero gastas mensualmente?:$ "))
+
+if ingreso > 2000000:
+    if gastos > ingreso * .8:
+        print("Estas ganando mucho pero estas gastando demasiado, no te va a quedar gita")
+    else: 
+        print("Estas ganando mucho y te esta quedando gita, genial!!")
+
+elif ingreso > 1500000:
+    if gastos > ingreso * .8:
+        print("Estas ganando mas del minimo pero estas gastando demasiado, no te va a quedar gita")
+    else: 
+        print("Estas ganando mas del minimo y te esta quedando gita, genial!!")
+else:
+    print("Estas ganando menos del minimo, sos pobre")
