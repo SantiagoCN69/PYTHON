@@ -4,11 +4,14 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
 
 ## ¿Qué hay aquí?
 - **variables/**: Cómo crear y usar variables, tipos simples y f-strings.
-- **tipos de datos/**
+- **tipos de datos/**:
   - `simples.py`: Tipos básicos (int, float, str, bool).
   - `compuestos.py`: Listas, tuplas, diccionarios y sets.
 - **operadores/**: Ejemplos de operadores aritméticos, lógicos, de comparación, pertenencia e identidad.
-
+- **condicionales/**:
+  - `if-else.py`: Ejemplos básicos de if-else, explicación en comentarios y ejemplos simples.
+  - `elif.py`: Ejemplos de if-elif-else, explicación y ejemplos prácticos con varios casos.
+  - `anidados.py`: Ejemplos de condicionales anidados (if dentro de if), con explicaciones y ejemplos prácticos (edad, licencia, ingresos y gastos).
 
 ## Requisitos
 - Tener Python instalado ([Descargar aquí](https://www.python.org/downloads/)).
