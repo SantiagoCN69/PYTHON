@@ -1,3 +1,4 @@
+# EXPLICACION METODOS CADENA BUSQUEDA/REEMPLAZO: Ejemplos de buscar, contar y reemplazar subcadenas en Python
 # Métodos de búsqueda y reemplazo en cadenas de texto en Python
 
 texto = "Me gusta Python. Python es genial."

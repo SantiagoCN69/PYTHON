@@ -1,3 +1,4 @@
+# EXPLICACION METODOS CADENA DIVISION/UNION: Ejemplos de dividir y unir cadenas en Python
 # Métodos para dividir y unir cadenas en Python
 
 texto = "uno,dos,tres,cuatro"
