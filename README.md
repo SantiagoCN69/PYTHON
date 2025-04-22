@@ -1,6 +1,6 @@
-# Apuntes de Python: Mi propio aprendizaje
+# Estudio sobre Python
 
-Este repositorio contiene mis apuntes y ejemplos prácticos de los conceptos básicos de Python.
+Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Python.
 
 ## ¿Qué hay aquí?
 - **variables/**: Cómo crear y usar variables, tipos simples y f-strings.
