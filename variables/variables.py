@@ -1,3 +1,4 @@
+# EXPLICACION VARIABLES: Ejemplo de cómo crear y usar variables en Python
 # Ejemplo de variables y operaciones básicas en Python
 
 # Declarar variables

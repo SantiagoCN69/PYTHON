@@ -1,3 +1,4 @@
+# EXPLICACION F-STRING: Ejemplo de cómo usar f-strings para formatear cadenas en Python
 # Ejemplo de uso de f-string en Python
 numero = 1
 nombre = "santiago"
