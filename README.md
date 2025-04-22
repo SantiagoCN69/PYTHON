@@ -18,6 +18,11 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
   - `validacion.py`: Validar si una cadena tiene solo letras, números, ambos, o si empieza/termina con algo.
   - `espacios_formato.py`: Eliminar espacios y formatear cadenas (strip, lstrip, rstrip, zfill).
   - `division_union.py`: Dividir cadenas (`split`) y unir listas en cadenas (`join`).
+- **metodos_lista/**: Métodos útiles para trabajar con listas en Python.
+  - `agregar_eliminar.py`: Agregar y eliminar elementos (`append`, `insert`, `extend`, `remove`, `pop`).
+  - `buscar_contar.py`: Buscar y contar elementos (`index`, `count`) y acceder por índice (positivo y negativo).
+  - `ordenar_revertir.py`: Ordenar y revertir listas (`sort`, `sorted`, `reverse`).
+  - `otros.py`: Copiar (`copy`), limpiar (`clear`) y obtener el tamaño de la lista (`len`).
 
 ## Requisitos
 - Tener Python instalado ([Descargar aquí](https://www.python.org/downloads/)).
