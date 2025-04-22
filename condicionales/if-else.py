@@ -1,3 +1,4 @@
+# EXPLICACION IF Y ELSE: Ejemplo básico de if-else para tomar decisiones simples en Python
 # Ejemplo básico de if-else en Python
 # El if-else permite ejecutar diferentes bloques de código dependiendo si una condición es verdadera o falsa.
 

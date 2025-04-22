@@ -1,8 +1,6 @@
-# Ejemplo de if-elif-else con condicionales anidados en Python
+# EXPLICACION IF ANIDADOS: Ejemplo de condicionales anidados (if dentro de if, elif, else) en Python
 # Puedes poner un if (o elif, o else) dentro de otro if para evaluar condiciones más complejas.
-# input() sirve para pedirle datos al usuario desde la consola.
-# Lo que el usuario escriba se guarda como una cadena (str).
-# Ejemplo: aquí pedimos la edad para decidir si es mayor o menor de edad.
+
 
 edad = int(input("¿Cuál es tu edad?: "))
 

@@ -1,3 +1,4 @@
+# EXPLICACION ELIF: Ejemplo de if-elif-else para evaluar múltiples condiciones en Python
 # Ejemplo de if-elif-else en Python
 # El if-elif-else permite evaluar múltiples condiciones de manera ordenada.
 # Python revisa cada condición en orden y ejecuta el primer bloque que sea verdadero.
