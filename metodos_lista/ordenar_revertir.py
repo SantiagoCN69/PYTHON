@@ -1,3 +1,4 @@
+# EXPLICACION METODOS LISTA ORDENAR/REVERTIR: Ejemplos de ordenar y revertir listas en Python
 # Métodos para ordenar y revertir listas en Python
 
 letras = ['b', 'a', 'd', 'c']

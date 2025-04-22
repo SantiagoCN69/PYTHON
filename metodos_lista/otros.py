@@ -1,14 +1,11 @@
+# EXPLICACION METODOS LISTA OTROS: Ejemplos de copiar, limpiar y obtener el tamaño de una lista en Python
 # Otros métodos útiles de listas en Python
 
-lista = [1, 2, 3, 4, 5]
+lista = [1, 2, 3]
+copia = lista.copy()  # Copia la lista
+print(copia)
 
-# copy(): crea una copia de la lista
-copia = lista.copy()
-print(copia)  # [1, 2, 3, 4, 5]
-
-# clear(): elimina todos los elementos de la lista
-lista.clear()
+lista.clear()  # Elimina todos los elementos
 print(lista)  # []
 
-# len(): obtiene la cantidad de elementos
-print(len(copia))  # 5
+print(len(copia))  # 3 (cantidad de elementos)
