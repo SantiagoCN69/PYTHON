@@ -12,4 +12,4 @@ def mostrar_info(**kwargs):
     for clave, valor in kwargs.items():
         print(f"{clave}: {valor}")
 
-mostrar_info(nombre="Santiago", edad=25, ciudad="Medellín")
+mostrar_info(nombre="Santiago", edad=25, ciudad="Ibague")

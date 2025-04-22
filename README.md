@@ -4,10 +4,16 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
 
 ## ¿Qué hay aquí?
 - **variables/**: Cómo crear y usar variables, tipos simples y f-strings.
-- **tipos de datos/**:
-  - `simples.py`: Tipos básicos (int, float, str, bool).
-  - `compuestos.py`: Listas, tuplas, diccionarios y sets.
-- **operadores/**: Ejemplos de operadores aritméticos, lógicos, de comparación, pertenencia e identidad.
+- **tipos_de_datos/**:
+  - `simples.py`: Ejemplos de tipos de datos simples (int, float, str, bool).
+  - `compuestos.py`: Ejemplos de tipos de datos compuestos (listas, tuplas, diccionarios, sets).
+- **operadores/**:
+  - `operadores.py`: Operadores aritméticos.
+  - `comparacion.py`: Operadores de comparación.
+  - `logicos.py`: Operadores lógicos (`and`, `or`, `not`).
+  - `asignacion.py`: Operadores de asignación.
+  - `pertenencia.py`: Operadores de pertenencia (`in`, `not in`).
+  - `identidad.py`: Operadores de identidad (`is`, `is not`).
 - **condicionales/**:
   - `if-else.py`: Ejemplos básicos de if-else, explicación en comentarios y ejemplos simples.
   - `elif.py`: Ejemplos de if-elif-else, explicación y ejemplos prácticos con varios casos.
@@ -23,6 +29,11 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
   - `buscar_contar.py`: Buscar y contar elementos (`index`, `count`) y acceder por índice (positivo y negativo).
   - `ordenar_revertir.py`: Ordenar y revertir listas (`sort`, `sorted`, `reverse`).
   - `otros.py`: Copiar (`copy`), limpiar (`clear`) y obtener el tamaño de la lista (`len`).
+- **metodos_diccionario/**: Métodos útiles para trabajar con diccionarios en Python.
+  - `crear_acceder.py`: Crear diccionarios y acceder a sus elementos (por clave y con `get`).
+  - `agregar_eliminar.py`: Agregar, actualizar y eliminar elementos (`[]`, `update`, `pop`, `popitem`).
+  - `recorrer_buscar.py`: Recorrer claves y valores (`keys`, `values`, `items`), iterar y buscar claves.
+  - `otros.py`: Copiar (`copy`), limpiar (`clear`) y contar elementos (`len`).
 
 ## Requisitos
 - Tener Python instalado ([Descargar aquí](https://www.python.org/downloads/)).
