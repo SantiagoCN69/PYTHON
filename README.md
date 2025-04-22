@@ -12,6 +12,12 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
   - `if-else.py`: Ejemplos básicos de if-else, explicación en comentarios y ejemplos simples.
   - `elif.py`: Ejemplos de if-elif-else, explicación y ejemplos prácticos con varios casos.
   - `anidados.py`: Ejemplos de condicionales anidados (if dentro de if), con explicaciones y ejemplos prácticos (edad, licencia, ingresos y gastos).
+- **metodos_cadena/**: Métodos útiles para trabajar con cadenas de texto en Python.
+  - `mayusculas_minusculas.py`: Convertir a mayúsculas, minúsculas, capitalizar, título.
+  - `busqueda_reemplazo.py`: Buscar, contar y reemplazar subcadenas.
+  - `validacion.py`: Validar si una cadena tiene solo letras, números, ambos, o si empieza/termina con algo.
+  - `espacios_formato.py`: Eliminar espacios y formatear cadenas (strip, lstrip, rstrip, zfill).
+  - `division_union.py`: Dividir cadenas (`split`) y unir listas en cadenas (`join`).
 
 ## Requisitos
 - Tener Python instalado ([Descargar aquí](https://www.python.org/downloads/)).
