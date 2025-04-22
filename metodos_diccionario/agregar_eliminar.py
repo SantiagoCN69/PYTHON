@@ -1,3 +1,4 @@
+# EXPLICACION METODOS DICCIONARIO AGREGAR/ELIMINAR: Ejemplos de cómo agregar, actualizar y eliminar elementos en un diccionario en Python
 # Métodos para agregar y eliminar elementos en un diccionario de Python
 
 datos = {

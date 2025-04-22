@@ -1,3 +1,4 @@
+# EXPLICACION METODOS DICCIONARIO CREAR/ACCEDER: Ejemplos de cómo crear y acceder a elementos en un diccionario en Python
 # Cómo crear y acceder a elementos en un diccionario de Python
 
 datos = {"nombre": "Santiago", "edad": 25, "ciudad": "Medellín"}

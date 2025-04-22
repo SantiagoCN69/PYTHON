@@ -1,3 +1,4 @@
+# EXPLICACION METODOS DICCIONARIO RECORRER/BUSCAR: Ejemplos de recorrer, buscar claves y valores en un diccionario en Python
 # Métodos para recorrer y buscar en un diccionario de Python
 
 datos = {"nombre": "Santiago", "edad": 17, "ciudad": "Ibague"}
