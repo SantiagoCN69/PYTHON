@@ -1,3 +1,4 @@
+# EXPLICACION TIPOS DE DATOS SIMPLES: Ejemplo de tipos de datos simples (int, float, str, bool) en Python
 # Ejemplo de texto (string)
 texto = "texto"
 texto_multilinea = """texto en 

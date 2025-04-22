@@ -1,4 +1,4 @@
-# Ejemplo de datos compuestos en Python
+# EXPLICACION TIPOS DE DATOS COMPUESTOS: Ejemplo de tipos de datos compuestos (listas, tuplas, diccionarios, sets) en Python
 
 # Lista (list): colección ordenada y modificable de elementos
 frutas = ["manzana", "banana", "cereza"]
