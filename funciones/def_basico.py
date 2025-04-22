@@ -1,7 +1,7 @@
-# Ejemplo básico de cómo definir y usar funciones en Python
+# EXPLICACION FUNCION BASICA: Ejemplo de cómo definir y usar una función simple en Python
 
 def saludar():
-    print("¡Hola desde una función!")
+    print("Hola, bienvenido a Python!")
 
 saludar()
 

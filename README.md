@@ -17,7 +17,7 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
 - **condicionales/**:
   - `if-else.py`: Ejemplos básicos de if-else, explicación en comentarios y ejemplos simples.
   - `elif.py`: Ejemplos de if-elif-else, explicación y ejemplos prácticos con varios casos.
-  - `anidados.py`: Ejemplos de condicionales anidados (if dentro de if), con explicaciones y ejemplos prácticos (edad, licencia, ingresos y gastos).
+  - `anidados.py`: Ejemplos de condicionales anidados (if dentro de if), con ejemplos prácticos (edad, licencia, ingresos y gastos).
 - **metodos_cadena/**: Métodos útiles para trabajar con cadenas de texto en Python.
   - `mayusculas_minusculas.py`: Convertir a mayúsculas, minúsculas, capitalizar, título.
   - `busqueda_reemplazo.py`: Buscar, contar y reemplazar subcadenas.

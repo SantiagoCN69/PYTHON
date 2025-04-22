@@ -1,3 +1,4 @@
+# EXPLICACION DOCSTRING: Ejemplo de cómo documentar funciones con docstring en Python
 # Ejemplo de docstring (comentario especial para documentar funciones en Python)
 
 def area_circulo(radio):

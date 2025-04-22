@@ -1,3 +1,4 @@
+# EXPLICACION ARGUMENTOS VARIABLES: Ejemplo de *args y **kwargs en funciones de Python
 # Funciones con argumentos variables (*args y **kwargs) en Python
 
 def suma_todos(*args):
