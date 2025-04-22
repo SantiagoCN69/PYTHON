@@ -1,4 +1,5 @@
-# Ejemplos de operadores lógicos en Python
+# EXPLICACION OPERADORES LOGICOS: Ejemplo de operadores lógicos en Python
+# Operadores lógicos: and, or, not
 
 # AND: Solo es True si ambas condiciones son True
 print(True and True)   # True

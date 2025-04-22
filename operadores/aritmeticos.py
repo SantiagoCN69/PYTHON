@@ -1,5 +1,4 @@
-# Ejemplos de operadores aritméticos en Python
-
+# EXPLICACION OPERADORES ARITMETICOS: Ejemplo de operadores aritméticos en Python
 suma = 5 + 3          # 8
 resta = 10 - 4        # 6
 multiplicacion = 2 * 6 # 12

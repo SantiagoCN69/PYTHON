@@ -1,3 +1,4 @@
+# EXPLICACION OPERADORES COMPARACION: Ejemplo de operadores de comparación en Python
 # Ejemplos de operadores de comparación en Python
 
 mayor = 5 > 3          # True
