@@ -28,6 +28,8 @@ for elemento in b:
     print(f"Elemento: {elemento}")
 
 # Agregar y eliminar elementos
+a = set()
+print(f"Conjunto original: {a}")
 a.add(5)
 print(f"Conjunto después de agregar 5: {a}")
 a.discard(5)
