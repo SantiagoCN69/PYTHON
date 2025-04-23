@@ -1,24 +1,40 @@
-# Duraciones de cursos en horas
-minimo_cursos = 2.5   # Mínima duración de otros cursos
-maximo_cursos = 7     # Máxima duración de otros cursos
-promedio = 4          # Duración promedio de otros cursos
-este_curso = 1.5      # Duración de este curso
+# Precios de camisetas en dólares
+precio_minimo = 10    # Precio mínimo de otras camisetas
+precio_maximo = 30    # Precio máximo de otras camisetas
+precio_promedio = 20  # Precio promedio de otras camisetas
+mi_precio = 8         # Precio de mi camiseta
 
-# Calcula el porcentaje de diferencia respecto al mínimo
-# Si el resultado es negativo, este curso es más corto; si es positivo, es más largo.
-diferencia_con_min = ((este_curso - minimo_cursos) / minimo_cursos) * 100
-print("Diferencia con el mínimo:", round(diferencia_con_min, 2), "%")
+# Calcula el porcentaje de diferencia respecto al precio mínimo
+porcentaje_min = ((mi_precio - precio_minimo) / precio_minimo) * 100
+print(porcentaje_min) # -20% mi preciero respecto al precio mínimo
+if porcentaje_min < 0:
+    print(f"Tu camiseta es más barata que el mínimo por {round(abs(porcentaje_min), 2)}%.")
+elif porcentaje_min > 0:
+    print(f"Tu camiseta es más cara que el mínimo por {round(abs(porcentaje_min), 2)}%.")
+else:
+    print("Tu camiseta cuesta exactamente lo mismo que el mínimo.")
 
-# Calcula el porcentaje de diferencia respecto al máximo
-# Si el resultado es negativo, este curso es más corto; si es positivo, es más largo.
-diferencia_con_max = ((este_curso - maximo_cursos) / maximo_cursos) * 100
-print("Diferencia con el máximo:", round(diferencia_con_max, 2), "%")
+# Calcula el porcentaje de diferencia respecto al precio máximo
+porcentaje_max = ((mi_precio - precio_maximo) / precio_maximo) * 100
+print(porcentaje_max) # -73.33% mi precio respecto al precio máximo
+if porcentaje_max < 0:
+    print(f"Tu camiseta es más barata que el máximo por {round(abs(porcentaje_max), 2)}%.")
+elif porcentaje_max > 0:
+    print(f"Tu camiseta es más cara que el máximo por {round(abs(porcentaje_max), 2)}%.")
+else:
+    print("Tu camiseta cuesta exactamente lo mismo que el máximo.")
 
-# Calcula el porcentaje de diferencia respecto al promedio
-# Si el resultado es negativo, este curso es más corto; si es positivo, es más largo.
-diferencia_con_prom = ((este_curso - promedio) / promedio) * 100
-print("Diferencia con el promedio:", round(diferencia_con_prom, 2), "%")
+# Calcula el porcentaje de diferencia respecto al precio promedio
+porcentaje_prom = ((mi_precio - precio_promedio) / precio_promedio) * 100
+print(porcentaje_prom) # -60% mi precio respecto al precio promedio
+if porcentaje_prom < 0:
+    print(f"Tu camiseta es más barata que el promedio por {round(abs(porcentaje_prom), 2)}%.")
+elif porcentaje_prom > 0:
+    print(f"Tu camiseta es más cara que el promedio por {round(abs(porcentaje_prom), 2)}%.")
+else:
+    print("Tu camiseta cuesta exactamente lo mismo que el promedio.")
 
 # Explicación:
+# abs(x) convierte cualquier número negativo en positivo. Por ejemplo, abs(-5) es 5.
 # round(x, 2) redondea el número x a 2 decimales. Por ejemplo, round(3.14159, 2) es 3.14.
-# Si el resultado es negativo, significa que este curso es más corto que la comparación. Si es positivo, es más largo.
+# Así los resultados son más fáciles de leer y comparar.
