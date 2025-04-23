@@ -3,7 +3,7 @@ texto = input("intruduce un texto: ")
 tiempo_1_palabras = 0.5
 numero_de_palabras = len(texto.split(" "))
 
-if numero_de_palabras > 12:
+if numero_de_palabras > 120:
     print(f"para, estas escribiendo como que mucho, pero tardas {round(numero_de_palabras * tiempo_1_palabras, 2)} segundos en decir {numero_de_palabras} palabras")
     print("------------")
 else:
