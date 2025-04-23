@@ -4,6 +4,13 @@ colores = {"rojo", "verde", "azul"}
 for color in colores:
     print(f"Color: {color}")
 
-# Ejemplo 2: Bucle for con enumerate
+#Bucle for con enumerate
 for i, color in enumerate(colores):
-    print(f"Color {i+1}: {color}")
+    print(f"el elemento {i} es: {color}")
+    
+    
+#Otra forma de bucle for con enumerate
+for i in enumerate(colores): #i es un par (índice, valor)
+    indice = i[0] #índice
+    valor = i[1] #valor
+    print(f"el elemento {indice} es: {valor}")
