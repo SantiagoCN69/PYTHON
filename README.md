@@ -37,6 +37,13 @@ Repositorio con apuntes y ejemplos prácticos de los conceptos básicos de Pytho
   - `agregar_eliminar.py`: Agregar, actualizar y eliminar elementos (`[]`, `update`, `pop`, `popitem`).
   - `recorrer_buscar.py`: Recorrer claves y valores (`keys`, `values`, `items`), iterar y buscar claves.
   - `otros.py`: Copiar (`copy`), limpiar (`clear`) y contar elementos (`len`).
+- **bucles/**: Bucles en Python.
+  - `for_basico.py`: Bucle for básico.
+  - `for_en_lista.py`: Bucle for en lista.
+  - `for_range_listas.py`: Bucle for con range y listas.
+  - `for_tuplas.py`: Bucle for con tuplas.
+  - `for_zip.py`: Bucle for con zip.
+  - `for_conjuntos.py`: Bucle for con conjuntos.
 
 ## Requisitos
 - Tener Python instalado ([Descargar aquí](https://www.python.org/downloads/)).
