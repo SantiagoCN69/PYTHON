@@ -6,8 +6,8 @@ for color in colores:
 
 #Bucle for con enumerate
 for i, color in enumerate(colores):
+    #primer variable es el índice, el segundo es el valor
     print(f"el elemento {i} es: {color}")
-    
     
 #Otra forma de bucle for con enumerate
 for i in enumerate(colores): #i es un par (índice, valor)
