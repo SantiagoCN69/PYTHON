@@ -1,0 +1,103 @@
+# Explicación completa del archivo parejas.py
+
+Este archivo implementa un juego de memoria de parejas usando Python y la librería gráfica Tkinter.
+
+---
+
+## 1. Importaciones
+
+- `import tkinter as tk`: Importa la librería Tkinter, que sirve para crear interfaces gráficas de usuario (ventanas, botones, etc).
+- `from tkinter import messagebox`: Permite mostrar cuadros de diálogo emergentes para mensajes e interacción con el usuario.
+- `import random`: Se usa para mezclar (barajar) los símbolos de las cartas de manera aleatoria.
+- `import time`: Se utiliza para medir el tiempo que tarda el jugador en completar el juego.
+- `from symbols import symbols as all_symbols`: Importa una lista de símbolos personalizados desde el archivo `symbols.py` para usarlos como contenido de las cartas.
+
+---
+
+## 2. Variables globales
+
+- `nivel_seleccionado`: Guarda el nivel de dificultad elegido por el usuario (Fácil, Medio, Difícil).
+
+---
+
+## 3. Funciones de selección de nivel
+
+- `elegir_nivel(nivel)`: Guarda el nivel elegido y cierra la ventana de selección.
+- `seleccionar_nivel()`: Crea una ventana con botones para que el usuario elija el nivel de dificultad. Llama a `elegir_nivel` según la opción seleccionada.
+
+---
+
+## 4. Diccionario de niveles
+
+- `niveles`: Relaciona el nombre del nivel con la cantidad de pares de cartas que tendrá el tablero:
+    - Fácil: 6 pares (12 cartas)
+    - Medio: 12 pares (24 cartas)
+    - Difícil: 18 pares (36 cartas)
+
+---
+
+## 5. Función principal del juego
+
+- `iniciar_juego()`: 
+    - Configura el tablero y las variables del juego.
+    - Elige los símbolos a usar y los mezcla aleatoriamente.
+    - Crea la ventana principal del juego (`root`).
+    - Inicializa variables de control: tiempo de inicio, movimientos, parejas encontradas, etc.
+    - Calcula el número de filas y columnas para la cuadrícula de botones.
+    - Crea los botones (cartas) y los coloca en la cuadrícula.
+    - Inicia el bucle principal de la interfaz gráfica.
+
+### Variables importantes dentro de `iniciar_juego()`
+- `pares`: Número de parejas según el nivel.
+- `total`: Total de cartas (pares x 2).
+- `symbols`: Lista de símbolos seleccionados y mezclados.
+- `root`: Ventana principal del juego.
+- `start_time`: Tiempo de inicio para calcular la duración.
+- `buttons`: Diccionario que asocia coordenadas (x, y) a cada botón/carta.
+- `first_click`, `previousX`, `previousY`: Controlan el flujo de los turnos y los clics del usuario.
+- `moves`: Cuenta los movimientos realizados.
+- `pairs_found`: Cuenta las parejas encontradas.
+- `cols`, `rows`: Número de columnas y filas del tablero.
+
+---
+
+## 6. Lógica de juego
+
+- `show_symbol(x, y)`: 
+    - Se ejecuta al hacer clic en una carta. Muestra el símbolo de la carta.
+    - Si es el primer clic del turno, guarda la posición.
+    - Si es el segundo clic, verifica si las cartas coinciden:
+        - Si coinciden, desactiva los botones y suma una pareja encontrada.
+        - Si no coinciden, oculta ambos símbolos después de 0.5 segundos.
+    - Si se encuentran todas las parejas, muestra un mensaje de victoria con los movimientos y el tiempo, y pregunta si se quiere jugar de nuevo.
+    - Si el usuario acepta, reinicia el juego desde la selección de nivel.
+
+- `ocultar_cartas(x1, y1, x2, y2)`: Oculta el texto de dos cartas que no son pareja.
+
+---
+
+## 7. Inicio del programa
+
+- `seleccionar_nivel()`: Llama a la función para seleccionar el nivel.
+- `iniciar_juego()`: Inicia el juego con el nivel seleccionado.
+
+---
+
+## 8. Otros conceptos usados
+
+- **Funciones lambda**: Se usan para pasar argumentos a los botones de forma sencilla.
+- **Diccionarios**: Se usan para asociar cada botón con su posición en el tablero.
+- **Ventanas y widgets de Tkinter**: Se usan para crear la interfaz gráfica (ventanas, botones, etiquetas).
+- **Bucle principal (`mainloop`)**: Mantiene la ventana abierta y responde a eventos del usuario.
+- **Variables globales**: Permiten compartir información entre funciones.
+- **Control de flujo con condicionales**: Permite verificar coincidencias y controlar el juego.
+
+---
+
+## 9. Dependencias externas
+
+- El archivo `symbols.py` debe existir en la misma carpeta y debe contener una lista llamada `symbols` con los símbolos que se mostrarán en las cartas.
+
+---
+
+Este archivo explica cada parte y concepto usado en el código de `parejas.py`. Si necesitas una explicación más detallada de alguna sección o función, házmelo saber.
